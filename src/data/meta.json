@@ -1,6 +1,7 @@
 {
-  "title": "Eleventy Starter",
-  "description": "An Eleventy starter project",
+  "title": "LemonAudio.Club",
+  "description": "Home to the Lemon Productions YouTube Channel Community",
   "lang": "en",
-  "locale": "en_us"
+  "locale": "en_us",
+  "youtubeurl": "https://www.youtube.com/c/lemonproductionsca"
 }
