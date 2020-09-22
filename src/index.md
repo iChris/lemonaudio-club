@@ -20,7 +20,7 @@ eleventyNavigation:
 
 <h3 class="text-3xl"> What's All This About?</h3>
 
-<p class="text-1xl">This will (eventually) be the page directing folks who frequent <a href="{{ meta.youtubeurl }}">my YouTube channel</a>. </p>
+<p class="text-1xl">This will (eventually) be the page directing folks who frequent <a href="{{ meta.youtubeurl }}">my YouTube channel</a> to a mailing list and Discord server.</p>
 
 <div class="container mx-auto">
 <img src="/media/Edge Walk down the stairs.gif" alt="Man with suitcases walking away">
