@@ -48,12 +48,53 @@ var ml_account = ml('accounts', '1545056', 'q3m1v7y4h5', 'load');
 
 <h2>Why Should I Join?</h2>
 
+<p class="leading-relaxed text-lg mb-4"></p>
 
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+      </div>
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Helping Each Other</h2>
+        <p class="leading-relaxed text-base">Figuring out audio and video issues on the Mac isn't easy - and chances are someone else has figured out or found a fix. So let's help each other!</p>
+      </div>
+    </div>
+    <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Chat With Me Directly</h2>
+        <p class="leading-relaxed text-base">I enjoy answering your questions on YouTube, but it's often frustrating to try and navigate the threads, not being able to paste in images or links very easily, and following up is difficult. In the Discord chat, we can go back and forth to try and figure out a solution during weekly office hours.</p>
+      </div>
+      <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+          <circle cx="6" cy="6" r="3"></circle>
+          <circle cx="6" cy="18" r="3"></circle>
+          <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+      </div>
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">A Fun Community</h2>
+        <p class="leading-relaxed text-base">We're just getting started, but I'd love to have you in the community to help shape what it could become. Weekly mystery sound contests, first looks at my new videos, and collaboration between members of the community on future projects are all in the plans for LemonAudio.Club.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<h2>I don't want to sign up for a newsletter!</h2>
 
-<h3>I don't want to sign up for a newsletter!</h3>
-
-<p class="leading-relaxed text-lg mb-4">As we say in Canada: sorry, eh? That's just the way I'd like to do it for now.</p>
+<p class="leading-relaxed text-lg mb-4">As we say in Canada: sorry, eh?</p>
+<p class="leading-relaxed text-lg mb-4">That's just the way I'd like to do it for now.</p>
 
 <img class="xl:w-5xl lg:w-3xl md:w-2xl w-1xl block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="/media/Edge Walk down the stairs.gif" alt="Man with suitcases walking away">
 
