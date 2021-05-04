@@ -6,8 +6,7 @@ eleventyNavigation:
 ---
 
 
-<p class="leading-relaxed text-lg mb-4">Thanks for <a href="https://www.youtube.com/c/lemonproductionsca">watching one of my videos on my YouTube channel</a> and taking the time to come here and sign up for more Lemon community audio fun.</p>
-<p>In addition to joining the Lemon Discord community, you'll also get membership discounts on consulting calls with me, and discounts on future projects like my Everything You Need to Know To Start Podcasting eBook. (coming later in 2021)</p>
+<p class="leading-relaxed text-lg mb-4">Chris here. Thanks for <a href="https://www.youtube.com/c/lemonproductionsca">watching one of my videos on my YouTube channel</a> and taking the time to come here and sign up for more fun Mac audio nerdy times with me.</p>
 
 <section class="text-gray-700 body-font">
   <div class="container py-2 mx-auto flex flex-col">
@@ -15,25 +14,23 @@ eleventyNavigation:
       <div class="flex flex-col sm:flex-row mt-10">
         <div class="sm:w-2/3 text-center sm:pr-8 sm:py-8">
           <div class="flex flex-col items-center text-center justify-center">
-            <h2>Become a Member</h2>
-            <p>I'm using <a href="https://www.buymeacoffee.com/lemons">BuyMeACoffee</a> to manage membership.</p><p>Once you choose monthly ($6) or annual ($60) membership, you'll be added to the Discord shortly.</p>
+            <h2>Join the Discord</h2>
+            <p>In the Discord we chat about audio, video, and live streaming related topics.</p>
+            <p>I'll be in there along with other members of Lemon Audio Club.</p>
           </div>
         </div>
         <div class="sm:w-1/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-          <p>
-          <a href="https://www.buymeacoffee.com/lemons" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
+          <p><a href="https://discord.gg/pTdwPh5Dxy" target="_blank"><img src="/media/Discord-Logo+Wordmark-Color.svg" alt="Join the Lemon Audio Club Discord Server"></a></p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<h2 class="text-center">Why Should I Join?</h2>
-
-<p class="leading-relaxed text-lg mb-4"></p>
+<hr>
 
 <section class="text-gray-700 body-font">
+<h2 class="text-center">Why Should I Join?</h>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 flex-shrink-0">
@@ -74,11 +71,13 @@ eleventyNavigation:
   </div>
 </section>
 
-<h2>I don't want to sign up for a newsletter!</h2>
+<div class="container px-5 py-24 mx-auto">
+<h2>Subscribe to my Email Newsletter</h2>
 
-<p class="leading-relaxed text-lg mb-4">As we say in Canada: sorry, eh?</p>
-<p class="leading-relaxed text-lg mb-4">That's just the way I'd like to do it for now.</p>
-
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/ichris?as_embed=true"
+></iframe>
+</div>
 <img class="xl:w-5xl lg:w-3xl md:w-2xl w-1xl block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="/media/Edge Walk down the stairs.gif" alt="Man with suitcases walking away">
-
-
