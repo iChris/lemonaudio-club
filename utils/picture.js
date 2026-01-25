@@ -1,6 +1,5 @@
 const path = require('path')
 const sharp = require('sharp')
-const deasync = require('deasync')
 const jsonfile = require('jsonfile')
 
 // Get config
@@ -18,24 +17,6 @@ const CACHE_FILE = path.resolve('.picture.cache')
 
 // Quality of outputted images
 const QUALITY = 75
-
-// Function to deasync sharp functions
-// This is required for synchronous markdown-it plugin
-function deasyncSharp(image, sharpFunction) {
-  let result
-
-  // Call function with callback
-  image[sharpFunction].bind(image)((error, data) => {
-    if (error) {
-      throw error
-    }
-    result = data
-  })
-
-  // Loop while the result is undefined
-  deasync.loopWhile(() => result === undefined)
-  return result
-}
 
 // Get image path from src
 function getImagePath(src) {
@@ -60,21 +41,21 @@ function loadCache() {
 }
 
 // Save image as the given size and format
-function saveImageFormat(image, origWidth, format) {
+async function saveImageFormat(image, origWidth, format) {
   // Resize image and format with given quality
   const formatted = image.clone().resize(origWidth)[format]({
     quality: QUALITY,
   })
 
   // Save buffer of formatted image
-  const buffer = deasyncSharp(formatted, 'toBuffer')
+  const buffer = await formatted.toBuffer()
   return saveMedia(buffer, format)
 }
 
 // Get the average color from an image
-function getAverageColor(image) {
+async function getAverageColor(image) {
   // Resize to one pixel and get raw buffer
-  const buffer = deasyncSharp(image.clone().resize(1).raw(), 'toBuffer')
+  const buffer = await image.clone().resize(1).raw().toBuffer()
   // Convert values to percentages
   const values = [...buffer].map(
     (value) => `${((value * 100) / 255).toFixed(0)}%`
@@ -83,7 +64,7 @@ function getAverageColor(image) {
   return `${values.length < 4 ? 'rgb' : 'rgba'}(${values.join(',')})`
 }
 
-module.exports = (
+module.exports = async (
   src,
   alt,
   width = null,
@@ -101,29 +82,28 @@ module.exports = (
   const original = sharp(imagePath)
 
   // Hash the original image
-  const imageHash = hashContent(deasyncSharp(original, 'toBuffer'))
+  const imageHash = hashContent(await original.toBuffer())
 
   // Load cache of resized images
   const cache = loadCache()
   const cachePicture = cache.hasOwnProperty(imageHash) && cache[imageHash]
 
   // Get metadata from original image
-  const { format, height: origHeight, width: origWidth } = deasyncSharp(
-    original,
-    'metadata'
-  )
+  const { format, height: origHeight, width: origWidth } = await original.metadata()
 
   // Average color used for background while image loads
-  const color = getAverageColor(original)
+  const color = await getAverageColor(original)
 
   // Save responsive images in same format
-  const sameFormat = Object.fromEntries(
-    SIZES.map((origWidth) => {
-      if (cachePicture && cachePicture.same.hasOwnProperty(origWidth))
-        return [origWidth, cachePicture.same[origWidth]]
-      return [origWidth, saveImageFormat(original, origWidth, format)]
+  // We need to await all these promises
+  const sameFormatEntries = await Promise.all(
+    SIZES.map(async (size) => {
+      if (cachePicture && cachePicture.same.hasOwnProperty(size))
+        return [size, cachePicture.same[size]]
+      return [size, await saveImageFormat(original, size, format)]
     })
   )
+  const sameFormat = Object.fromEntries(sameFormatEntries)
 
   // Image descriptor with origWidth
   const sameFormatDesc = Object.keys(sameFormat).map((size) => {
@@ -131,13 +111,14 @@ module.exports = (
   })
 
   // Save responsive images in webp format
-  const webpFormat = Object.fromEntries(
-    SIZES.map((origWidth) => {
-      if (cachePicture && cachePicture.webp.hasOwnProperty(origWidth))
-        return [origWidth, cachePicture.webp[origWidth]]
-      return [origWidth, saveImageFormat(original, origWidth, 'webp')]
+  const webpFormatEntries = await Promise.all(
+    SIZES.map(async (size) => {
+      if (cachePicture && cachePicture.webp.hasOwnProperty(size))
+        return [size, cachePicture.webp[size]]
+      return [size, await saveImageFormat(original, size, 'webp')]
     })
   )
+  const webpFormat = Object.fromEntries(webpFormatEntries)
 
   // Image descriptor with origWidth
   const webpFormatDesc = Object.keys(webpFormat).map((size) => {
