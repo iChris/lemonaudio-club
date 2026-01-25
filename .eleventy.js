@@ -45,7 +45,11 @@ module.exports = function (eleventyConfig) {
    * @link https://www.11ty.io/docs/shortcodes/
    */
   Object.keys(shortcodes).forEach((shortcodeName) => {
-    eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+    if (shortcodeName === 'picture') {
+        eleventyConfig.addAsyncShortcode(shortcodeName, shortcodes[shortcodeName])
+    } else {
+        eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+    }
   })
 
   /**
