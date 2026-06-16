@@ -20,7 +20,7 @@ seo:
     </h1>
     <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-8">Stressed about having to make video podcasts? Let me help.</p>
     <div class="bg-gray-800 border-l-4 border-yellow-400 rounded p-5 sm:p-6 mb-10 sm:flex sm:items-center">
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
         Join me on Patreon →
       </a>
       <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Subscribe and you'll get access to live stream hangouts, preview tutorials, and "how I work" videos, and weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
@@ -102,7 +102,7 @@ seo:
   <!-- ===================== MID-PAGE PATREON CTA ===================== -->
   <section class="mb-16">
     <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8 sm:flex sm:items-center">
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
         Join me on Patreon →
       </a>
       <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Get all of this the moment you join — live stream hangouts, preview tutorials, "how I work" videos, and weekly office hour chats with me and the community most Tuesday afternoons.</p>
@@ -169,7 +169,7 @@ seo:
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
       <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
       <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
         Join me on Patreon →
       </a>
     </div>
