@@ -15,7 +15,6 @@ seo:
   <!-- ===================== HERO ===================== -->
   <section class="full-bleed bg-gray-900 text-white py-16 sm:py-20 mb-12">
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
-    <p class="text-yellow-400 font-bold uppercase tracking-wide text-xs sm:text-sm mb-4">Video podcast editing, without the overwhelm</p>
     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
       Add video.<br>Skip the overwhelm.<br><span class="text-yellow-400">Keep your sanity.</span>
     </h1>
