@@ -13,21 +13,20 @@ seo:
 <div class="max-w-5xl mx-auto">
 
   <!-- ===================== HERO ===================== -->
-  <section class="bg-gray-900 text-white rounded px-6 py-16 sm:px-12 sm:py-20 mb-12">
+  <section class="full-bleed bg-gray-900 text-white py-16 sm:py-20 mb-12">
+    <div class="max-w-5xl mx-auto px-6 sm:px-12">
     <p class="text-yellow-400 font-bold uppercase tracking-wide text-xs sm:text-sm mb-4">Video podcast editing, without the overwhelm</p>
-    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
-      Add video. Skip the overwhelm. <span class="text-yellow-400">Keep your sanity.</span>
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+      Add video.<br>Skip the overwhelm.<br><span class="text-yellow-400">Keep your sanity.</span>
     </h1>
     <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-3">Stressed about having to make video podcasts? Let me help.</p>
     <p class="text-base sm:text-lg text-gray-400 mb-8 max-w-2xl">For podcasters and editors going video-first — film crew optional.</p>
-    <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4">
+    <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-10">
       Join me on Patreon →
     </a>
-    <p class="text-sm text-gray-400 font-mono mb-10">Patreon.com/ichris</p>
 
     <!-- Video, inside the hero background -->
-    <p id="watch" class="text-gray-400 text-sm uppercase tracking-wide font-bold mb-3">Watch the 3-minute intro</p>
-    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded">
+    <div id="watch" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded">
       <iframe
         style="position:absolute;top:0;left:0;width:100%;height:100%;"
         src="https://www.youtube-nocookie.com/embed/U5Lupidy9DI"
@@ -36,6 +35,7 @@ seo:
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+    </div>
     </div>
   </section>
 
@@ -129,7 +129,7 @@ seo:
   </section>
 
   <!-- ===================== AUDIO REASSURANCE ===================== -->
-  <section class="max-w-3xl mb-16">
+  <section class="max-w-3xl mx-auto text-center mb-16">
     <h2 class="text-3xl sm:text-4xl font-bold mb-4">And no — audio isn't going anywhere</h2>
     <p class="text-lg leading-relaxed text-gray-800">People still commute. People still do dishes. People still want something in their ears that isn't music. The audience for audio is real and loyal. What's changing is what clients expect and what platforms reward — so this is about <em>adding</em> to what we know, not abandoning it.</p>
   </section>
@@ -137,7 +137,7 @@ seo:
   <!-- ===================== FINAL CTA ===================== -->
   <section id="join" class="bg-gray-900 text-white rounded px-6 py-14 sm:px-12 sm:py-16 mb-4 text-center">
     <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
-    <p class="text-lg text-gray-300 leading-relaxed mb-8 max-w-2xl mx-auto">I'm not waiting until I have a polished course to sell. I'm sharing tips, tutorials, and what's working as I learn it. Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
+    <p class="text-lg text-gray-300 leading-relaxed mb-8 max-w-2xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
     <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-3">
       Join me on Patreon →
     </a>
