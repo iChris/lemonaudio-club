@@ -19,11 +19,13 @@ seo:
     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
       Add video.<br>Skip the overwhelm.<br><span class="text-yellow-400">Keep your sanity.</span>
     </h1>
-    <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-3">Stressed about having to make video podcasts? Let me help.</p>
-    <p class="text-base sm:text-lg text-gray-400 mb-8 max-w-2xl">For podcasters and editors going video-first — film crew optional.</p>
-    <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-10">
-      Join me on Patreon →
-    </a>
+    <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-8">Stressed about having to make video podcasts? Let me help.</p>
+    <div class="bg-gray-800 border-l-4 border-yellow-400 rounded p-5 sm:p-6 mb-10 sm:flex sm:items-center">
+      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+        Join me on Patreon →
+      </a>
+      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Subscribe and you'll get access to live stream hangouts, preview tutorials, and "how I work" videos, and weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+    </div>
 
     <!-- Video, inside the hero background -->
     <div id="watch" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded">
@@ -67,8 +69,8 @@ seo:
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-orange-100 border border-orange-200 rounded p-6 h-full">
-          <h3 class="text-xl font-bold mb-2">💡 Lighting, simplified</h3>
-          <p class="text-gray-700 leading-relaxed">Lighting that doesn't require you to be a cinematographer to pull off.</p>
+          <h3 class="text-xl font-bold mb-2">🛠️ Software recommendations</h3>
+          <p class="text-gray-700 leading-relaxed">How to pick between Riverside, Descript, and a fax machine 😜 — which tools actually fit your show, and which ones you can safely skip.</p>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
