@@ -15,15 +15,15 @@ seo:
   <!-- ===================== HERO ===================== -->
   <section class="full-bleed bg-gray-900 text-white py-16 sm:py-20 mb-12">
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
-    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+    <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-4">Stressed about having to make video podcasts? Let me help.</p>
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-8">
       Add video.<br>Skip the overwhelm.<br><span class="text-yellow-400">Keep your sanity.</span>
     </h1>
-    <p class="text-xl sm:text-2xl text-gray-200 font-semibold leading-snug mb-8">Stressed about having to make video podcasts? Let me help.</p>
     <div class="bg-gray-800 border-l-4 border-yellow-400 rounded p-5 sm:p-6 mb-10 sm:flex sm:items-center">
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
         Join me on Patreon →
       </a>
-      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Subscribe and you'll get access to live stream hangouts, preview tutorials, and "how I work" videos, and weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Subscribe and you'll get access to live stream hangouts, preview tutorials, and "how I work" videos, and you'll be able to join weekly office hour hangouts with me and other members of my community most Tuesday afternoons.</p>
     </div>
 
     <!-- Video, inside the hero background -->
@@ -46,10 +46,17 @@ seo:
     <div class="flex flex-wrap -mx-4 leading-relaxed text-gray-800 text-lg">
       <div class="w-full md:w-1/2 px-4 space-y-4 mb-4 md:mb-0">
         <p>I'll be honest about something a lot of people in my world are feeling and not saying out loud: I've been a bit <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">burnt out</mark>. Not because I hate video, but because I had audio dialed in — routines that worked, clients I loved, schedules that made sense — and suddenly there's a <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">whole new layer of complexity</mark> to figure out, charge for correctly, and learn the tools for.</p>
-        <p>But this isn't the industry betraying me. It's just <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">the industry moving</mark>. And it's moved before. When I started, podcasting itself was the weird niche. Then it became normal, then competitive, then the tools got better and the workflows got tighter. Now here we are again at that messy early stage — but with video.</p>
       </div>
       <div class="w-full md:w-1/2 px-4 space-y-4">
+        <p>But this isn't the industry betraying me. It's just <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">the industry moving</mark>. And it's moved before. When I started, podcasting itself was the weird niche. Then it became normal, then competitive, then the tools got better and the workflows got tighter. Now here we are again at that messy early stage — but with video.</p>
+      </div>
+    </div>
+    <hr class="border-gray-200 my-8">
+    <div class="flex flex-wrap -mx-4 leading-relaxed text-gray-800 text-lg">
+      <div class="w-full md:w-1/2 px-4 space-y-4 mb-4 md:mb-0">
         <p>I've been through the <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">messy early stage</mark> before. I know what it looks like: too many options, bad advice everywhere, and figuring out <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">what actually matters</mark> versus what people <em>say</em> matters.</p>
+      </div>
+      <div class="w-full md:w-1/2 px-4 space-y-4">
         <p>So instead of grinding through it alone and stressed, I'm <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">documenting it</mark> — and sharing it with anyone in the same boat.</p>
       </div>
     </div>
@@ -102,10 +109,10 @@ seo:
   <!-- ===================== MID-PAGE PATREON CTA ===================== -->
   <section class="mb-16">
     <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8 sm:flex sm:items-center">
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
         Join me on Patreon →
       </a>
-      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Get all of this the moment you join — live stream hangouts, preview tutorials, "how I work" videos, and weekly office hour chats with me and the community most Tuesday afternoons.</p>
+      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Once you subscribe, you'll gain access to — live stream hangouts, preview tutorials, "how I work" videos, and weekly office hour chats with me and the community most Tuesday afternoons.</p>
     </div>
   </section>
 
@@ -113,7 +120,7 @@ seo:
   <section class="bg-gray-100 rounded px-6 py-10 sm:px-10 mb-16">
     <div class="sm:flex sm:items-center sm:justify-between mb-6">
       <div class="mb-5 sm:mb-0 sm:pr-8">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to subscribe?<br>Start watching for free now.</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to join quite yet?<br>Start watching for free now.</h2>
         <p class="text-lg text-gray-700 leading-relaxed">I have years of podcast editing tutorials and tricks already on my YouTube channel. Watch a few, see if we click — then come join the deep end.</p>
       </div>
       <a href="{{ meta.youtubeurl }}" rel="noopener" class="inline-block flex-shrink-0 bg-gray-900 hover:bg-gray-800 text-white font-bold text-lg rounded px-8 py-4">Watch on YouTube →</a>
@@ -169,7 +176,7 @@ seo:
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
       <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
       <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
-      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
+      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
         Join me on Patreon →
       </a>
     </div>
