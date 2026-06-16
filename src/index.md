@@ -84,6 +84,28 @@ seo:
           <p class="text-gray-700 leading-relaxed">Ten-plus years of audio-first craft. Video is an addition, not a replacement.</p>
         </div>
       </div>
+      <div class="w-full sm:w-1/2 px-3 mb-6">
+        <div class="bg-blue-100 border border-blue-200 rounded p-6 h-full">
+          <h3 class="text-xl font-bold mb-2">🎥 Videos!</h3>
+          <p class="text-gray-700 leading-relaxed">We'll do live stream hangouts, you can preview tutorials, and videos showing how I work.</p>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 px-3 mb-6">
+        <div class="bg-green-100 border border-green-200 rounded p-6 h-full">
+          <h3 class="text-xl font-bold mb-2">👥 Community!</h3>
+          <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MID-PAGE PATREON CTA ===================== -->
+  <section class="mb-16">
+    <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8 sm:flex sm:items-center">
+      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
+        Join me on Patreon →
+      </a>
+      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Get all of this the moment you join — live stream hangouts, preview tutorials, "how I work" videos, and weekly office hour chats with me and the community most Tuesday afternoons.</p>
     </div>
   </section>
 
