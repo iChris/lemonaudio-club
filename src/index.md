@@ -87,12 +87,19 @@ seo:
   </section>
 
   <!-- ===================== FREE ON YOUTUBE ===================== -->
-  <section class="bg-gray-100 rounded px-6 py-10 sm:px-10 mb-16 sm:flex sm:items-center sm:justify-between">
-    <div class="mb-5 sm:mb-0 sm:pr-8">
-      <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to join? Start free.</h2>
-      <p class="text-lg text-gray-700 leading-relaxed">Years of podcast-editing videos are already up on my YouTube channel. Watch a few, see if we click — then come join the deep end.</p>
+  <section class="bg-gray-100 rounded px-6 py-10 sm:px-10 mb-16">
+    <div class="sm:flex sm:items-center sm:justify-between mb-6">
+      <div class="mb-5 sm:mb-0 sm:pr-8">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to join?<br>Start watching for free now.</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">I have years of podcast editing tutorials and tricks already on my YouTube channel. Watch a few, see if we click — then come join the deep end.</p>
+      </div>
+      <a href="{{ meta.youtubeurl }}" rel="noopener" class="inline-block flex-shrink-0 bg-gray-900 hover:bg-gray-800 text-white font-bold text-lg rounded px-8 py-4">Watch on YouTube →</a>
     </div>
-    <a href="{{ meta.youtubeurl }}" rel="noopener" class="inline-block flex-shrink-0 bg-gray-900 hover:bg-gray-800 text-white font-bold text-lg rounded px-8 py-4">Watch on YouTube →</a>
+    <a href="{{ meta.youtubeurl }}" rel="noopener" class="block">
+      <picture>
+        <img src="/media/youtube-channel.png" alt="A grid of popular podcast, audio, and live-streaming tutorial videos from Chris's YouTube channel" class="w-full rounded border border-gray-200">
+      </picture>
+    </a>
   </section>
 
   <!-- ===================== WHO IT'S FOR ===================== -->
@@ -135,13 +142,14 @@ seo:
   </section>
 
   <!-- ===================== FINAL CTA ===================== -->
-  <section id="join" class="bg-gray-900 text-white rounded px-6 py-14 sm:px-12 sm:py-16 mb-4 text-center">
-    <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
-    <p class="text-lg text-gray-300 leading-relaxed mb-8 max-w-2xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
-    <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-3">
-      Join me on Patreon →
-    </a>
-    <p class="text-sm text-gray-400 font-mono">Patreon.com/ichris</p>
+  <section id="join" class="full-bleed bg-gray-900 text-white py-14 sm:py-16 text-center">
+    <div class="max-w-5xl mx-auto px-6 sm:px-12">
+      <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
+      <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
+      <a href="https://www.patreon.com/ichris" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
+        Join me on Patreon →
+      </a>
+    </div>
   </section>
 
 </div>
