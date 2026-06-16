@@ -17,8 +17,8 @@
 <body class="text-gray-900 leading-normal">
     <a href="#content" class="sr-only">skip to main content</a>
     <div role="document" class="min-h-screen flex flex-col">
-        {% include "header.njk" %}
-        <main class="flex-grow w-full p-4" id="content" tabindex="-1">
+        {% if page.url != '/' %}{% include "header.njk" %}{% endif %}
+        <main class="flex-grow w-full px-4 pb-4{% if page.url != '/' %} pt-4{% endif %}" id="content" tabindex="-1">
             {{ content | safe }}
         </main>
         {% include "footer.njk" %}

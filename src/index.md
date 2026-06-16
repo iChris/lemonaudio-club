@@ -113,7 +113,7 @@ seo:
   <section class="bg-gray-100 rounded px-6 py-10 sm:px-10 mb-16">
     <div class="sm:flex sm:items-center sm:justify-between mb-6">
       <div class="mb-5 sm:mb-0 sm:pr-8">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to join?<br>Start watching for free now.</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to subscribe?<br>Start watching for free now.</h2>
         <p class="text-lg text-gray-700 leading-relaxed">I have years of podcast editing tutorials and tricks already on my YouTube channel. Watch a few, see if we click — then come join the deep end.</p>
       </div>
       <a href="{{ meta.youtubeurl }}" rel="noopener" class="inline-block flex-shrink-0 bg-gray-900 hover:bg-gray-800 text-white font-bold text-lg rounded px-8 py-4">Watch on YouTube →</a>
