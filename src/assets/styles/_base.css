@@ -1,11 +1,10 @@
 /**
  * Smoothly animate the scroll position, instead of a straight jump.
+ * Reduced-motion users are handled by the media query below.
  */
-/*
 html {
   scroll-behavior: smooth;
 }
-*/
 
 /**
  * Disable animations if the user has turned on the a11y option for reduced motion due to 
