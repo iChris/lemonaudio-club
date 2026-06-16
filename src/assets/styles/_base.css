@@ -1,11 +1,10 @@
 /**
  * Smoothly animate the scroll position, instead of a straight jump.
+ * Reduced-motion users are handled by the media query below.
  */
-/*
 html {
   scroll-behavior: smooth;
 }
-*/
 
 /**
  * Disable animations if the user has turned on the a11y option for reduced motion due to 
@@ -28,7 +27,22 @@ html {
 }
 
 /**
- * `x-cloak` attributes are removed from elements when Alpine initializes. 
+ * Full-bleed: break an element out of its max-width parent so its background
+ * spans the entire viewport width. Inner content stays constrained by its own
+ * wrapper. `overflow-x: hidden` on body prevents the 100vw + scrollbar overflow.
+ */
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/**
+ * `x-cloak` attributes are removed from elements when Alpine initializes.
  * This is useful for hiding pre-initialized DOM.
  * 
  * @link https://github.com/alpinejs/alpine#x-cloak
