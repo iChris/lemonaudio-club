@@ -1,7 +1,8 @@
 {
   "title": "LemonAudio.Club",
-  "description": "Learn to edit video and audio podcasts with as little stress as possible. Documented in real time by Chris Enns, a podcast editor of 10+ years. Join on Patreon.",
+  "description": "Learn to edit video and audio podcasts with as little stress as possible. Documented in real time by Chris Enns, a podcast editor of 10+ years. Subscribe to the newsletter.",
   "lang": "en",
   "locale": "en_us",
-  "youtubeurl": "https://www.youtube.com/c/lemonproductionsca"
+  "youtubeurl": "https://www.youtube.com/c/lemonproductionsca",
+  "kitFormId": "9587338"
 }
