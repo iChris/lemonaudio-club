@@ -19,11 +19,26 @@ seo:
     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-8">
       Add video.<br>Skip the overwhelm.<br><span class="text-yellow-400">Keep your sanity.</span>
     </h1>
-    <div class="bg-gray-800 border-l-4 border-yellow-400 rounded p-5 sm:p-6 mb-10 sm:flex sm:items-center">
-      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
-        Join me on Patreon →
-      </a>
-      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Subscribe and you'll get access to live stream hangouts, preview tutorials, and "how I work" videos, and you'll be able to join weekly office hour hangouts with me and other members of my community most Tuesday afternoons.</p>
+    <div class="bg-gray-800 border-l-4 border-yellow-400 rounded p-6 sm:p-8 mb-10">
+      <p class="text-lg text-gray-200 font-semibold mb-4">Get free updates, workflows, and video tutorials delivered to your inbox.</p>
+      <form action="https://app.convertkit.com/forms/{{ meta.kitFormId }}/subscriptions" method="POST" class="w-full max-w-2xl">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Enter your email address" 
+            required 
+            class="flex-grow px-5 py-4 rounded bg-gray-900 text-white placeholder-gray-500 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-base sm:text-lg"
+          />
+          <button 
+            type="submit" 
+            class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 whitespace-nowrap transition-colors duration-200"
+          >
+            Subscribe →
+          </button>
+        </div>
+        <p class="text-xs text-gray-400 mt-3">Join other editors and podcasters. Unsubscribe anytime.</p>
+      </form>
     </div>
 
     <!-- Video, inside the hero background -->
@@ -108,11 +123,26 @@ seo:
 
   <!-- ===================== MID-PAGE PATREON CTA ===================== -->
   <section class="mb-16">
-    <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8 sm:flex sm:items-center">
-      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block flex-shrink-0 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 mb-4 sm:mb-0 sm:mr-6">
-        Join me on Patreon →
-      </a>
-      <p class="text-base sm:text-lg text-gray-200 leading-relaxed">Once you subscribe, you'll gain access to — live stream hangouts, preview tutorials, "how I work" videos, and weekly office hour chats with me and the community most Tuesday afternoons.</p>
+    <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8">
+      <p class="text-xl font-bold text-white mb-4">Ready to build your video podcast workflow?</p>
+      <form action="https://app.convertkit.com/forms/{{ meta.kitFormId }}/subscriptions" method="POST" class="w-full max-w-2xl">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Enter your email address" 
+            required 
+            class="flex-grow px-5 py-4 rounded bg-gray-800 text-white placeholder-gray-500 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-base sm:text-lg"
+          />
+          <button 
+            type="submit" 
+            class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 whitespace-nowrap transition-colors duration-200"
+          >
+            Subscribe →
+          </button>
+        </div>
+        <p class="text-xs text-gray-400 mt-3">Get tips, tutorials, and templates directly in your inbox.</p>
+      </form>
     </div>
   </section>
 
@@ -175,10 +205,25 @@ seo:
   <section id="join" class="full-bleed bg-gray-900 text-white py-14 sm:py-16 text-center">
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
       <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
-      <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Join me on Patreon and let's make video podcasts with as little stress as possible.</p>
-      <a href="https://patreon.com/ichris/membership" rel="noopener" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4">
-        Join me on Patreon →
-      </a>
+      <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Subscribe to my newsletter and let's make video podcasts with as little stress as possible.</p>
+      <form action="https://app.convertkit.com/forms/{{ meta.kitFormId }}/subscriptions" method="POST" class="max-w-md mx-auto">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Enter your email address" 
+            required 
+            class="flex-grow px-5 py-4 rounded bg-gray-800 text-white placeholder-gray-500 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-base"
+          />
+          <button 
+            type="submit" 
+            class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold text-lg rounded px-8 py-4 whitespace-nowrap transition-colors duration-200"
+          >
+            Subscribe →
+          </button>
+        </div>
+        <p class="text-xs text-gray-400 mt-3">Zero spam. Simple unsubscribe link in every email.</p>
+      </form>
     </div>
   </section>
 
