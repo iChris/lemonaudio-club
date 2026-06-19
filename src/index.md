@@ -45,7 +45,7 @@ seo:
     <div id="watch" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded">
       <iframe
         style="position:absolute;top:0;left:0;width:100%;height:100%;"
-        src="https://www.youtube-nocookie.com/embed/U5Lupidy9DI"
+        src="https://www.youtube-nocookie.com/embed/mh480i6qugY"
         title="Stressed about making video podcasts? Let me help."
         frameborder="0"
         loading="lazy"
