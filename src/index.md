@@ -4,8 +4,8 @@ title: Learn to edit video & audio podcasts
 eleventyNavigation:
   key: Home
 seo:
-  title: Stressed about making video podcasts? Let me help — LemonAudio.club
-  description: I've edited audio podcasts for 10+ years. Now I'm documenting how to make video podcasts with as little stress as possible — cameras, lighting, and editing workflows that don't make you want to quit. Join me on Patreon.
+  title: Stressed about making video podcasts? Let me help | LemonAudio.club
+  description: I've edited audio podcasts for 10+ years. Now I'm documenting how to make video podcasts with as little stress as possible. I'll cover cameras, lighting, and editing workflows that won't make you want to quit. Join me on Patreon.
 ---
 
 <!-- Landing page for Patreon.com/ichris -->
@@ -60,10 +60,10 @@ seo:
     <h2 class="text-3xl sm:text-4xl font-bold mb-6">Why I'm doing this</h2>
     <div class="flex flex-wrap -mx-4 leading-relaxed text-gray-800 text-lg">
       <div class="w-full md:w-1/2 px-4 space-y-4 mb-4 md:mb-0">
-        <p>I'll be honest about something a lot of people in my world are feeling and not saying out loud: I've been a bit <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">burnt out</mark>. Not because I hate video, but because I had audio dialed in — routines that worked, clients I loved, schedules that made sense — and suddenly there's a <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">whole new layer of complexity</mark> to figure out, charge for correctly, and learn the tools for.</p>
+        <p>I'll be honest about something a lot of people in my world are feeling and not saying out loud: I've been a bit <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">burnt out</mark>. Not because I hate video, but because I had audio dialed in. I had routines that worked, clients I loved, and schedules that made sense. But suddenly, there's a <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">whole new layer of complexity</mark> to figure out, charge for correctly, and learn the tools for.</p>
       </div>
       <div class="w-full md:w-1/2 px-4 space-y-4">
-        <p>But this isn't the industry betraying me. It's just <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">the industry moving</mark>. And it's moved before. When I started, podcasting itself was the weird niche. Then it became normal, then competitive, then the tools got better and the workflows got tighter. Now here we are again at that messy early stage — but with video.</p>
+        <p>But this isn't the industry betraying me. It's just <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">the industry moving</mark>. And it's moved before. When I started, podcasting itself was the weird niche. Then it became normal, then competitive, then the tools got better and the workflows got tighter. Now here we are again at that messy early stage, but with video.</p>
       </div>
     </div>
     <hr class="border-gray-200 my-8">
@@ -72,7 +72,7 @@ seo:
         <p>I've been through the <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">messy early stage</mark> before. I know what it looks like: too many options, bad advice everywhere, and figuring out <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">what actually matters</mark> versus what people <em>say</em> matters.</p>
       </div>
       <div class="w-full md:w-1/2 px-4 space-y-4">
-        <p>So instead of grinding through it alone and stressed, I'm <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">documenting it</mark> — and sharing it with anyone in the same boat.</p>
+        <p>So instead of grinding through it alone and stressed, I'm <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">documenting it</mark> and sharing it with anyone in the same boat.</p>
       </div>
     </div>
   </section>
@@ -80,48 +80,63 @@ seo:
   <!-- ===================== WHAT YOU GET ===================== -->
   <section id="what" class="mb-16">
     <h2 class="text-3xl sm:text-4xl font-bold mb-2">What you'll get</h2>
-    <p class="text-gray-600 mb-8 max-w-2xl">Real stuff from someone who's in it right now. No assumptions that you have a full production crew — because you don't, and you don't need one.</p>
+    <p class="text-gray-600 mb-8 max-w-2xl">Real stuff from someone who's in it right now. There are no assumptions that you have a full production crew, because you don't, and you don't need one.</p>
     <div class="flex flex-wrap -mx-3">
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-yellow-100 border border-yellow-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">📷 Camera setups that make sense</h3>
-          <p class="text-gray-700 leading-relaxed">What actually matters for a good-looking video podcast — without the gear rabbit holes.</p>
+          <p class="text-gray-700 leading-relaxed">What actually matters for a good-looking video podcast, skipping the unnecessary gear rabbit holes.</p>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-orange-100 border border-orange-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">🛠️ Software recommendations</h3>
-          <p class="text-gray-700 leading-relaxed">How to pick between Riverside, Descript, and a fax machine 😜 — which tools actually fit your show, and which ones you can safely skip.</p>
+          <p class="text-gray-700 leading-relaxed">How to pick between Riverside, Descript, and a fax machine 😜 to find the tools that actually fit your show, letting you safely skip the rest.</p>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-teal-100 border border-teal-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">✂️ Editing workflows</h3>
-          <p class="text-gray-700 leading-relaxed">Workflows that don't make you want to quit — built by an editor, for editors and podcasters.</p>
-        </div>
-      </div>
-      <div class="w-full sm:w-1/2 px-3 mb-6">
-        <div class="bg-purple-100 border border-purple-200 rounded p-6 h-full">
-          <h3 class="text-xl font-bold mb-2">🎧 Audio still counts</h3>
-          <p class="text-gray-700 leading-relaxed">Ten-plus years of audio-first craft. Video is an addition, not a replacement.</p>
+          <p class="text-gray-700 leading-relaxed">Workflows that don't make you want to quit, built by an editor specifically for editors and podcasters.</p>
+          <div class="mt-4 pt-3 border-t border-teal-200 text-xs">
+            <span class="font-bold text-teal-800">Coming Soon</span>
+            <p class="text-teal-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-blue-100 border border-blue-200 rounded p-6 h-full">
-          <h3 class="text-xl font-bold mb-2">🎥 Videos!</h3>
-          <p class="text-gray-700 leading-relaxed">We'll do live stream hangouts, you can preview tutorials, and videos showing how I work.</p>
+          <h3 class="text-xl font-bold mb-2">🎥 Video guides</h3>
+          <p class="text-gray-700 leading-relaxed">Get access to live stream hangouts, preview tutorials, and watch behind-the-scenes videos showing how I work.</p>
+          <div class="mt-4 pt-3 border-t border-blue-200 text-xs">
+            <span class="font-bold text-blue-800">Coming Soon</span>
+            <p class="text-blue-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-green-100 border border-green-200 rounded p-6 h-full">
-          <h3 class="text-xl font-bold mb-2">👥 Community!</h3>
+          <h3 class="text-xl font-bold mb-2">👥 Community</h3>
           <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+          <div class="mt-4 pt-3 border-t border-green-200 text-xs">
+            <span class="font-bold text-green-800">Coming Soon</span>
+            <p class="text-green-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== MID-PAGE PATREON CTA ===================== -->
+  <!-- ===================== AUDIO BANNER QUOTE ===================== -->
+  <section class="full-bleed bg-purple-900 text-white py-12 sm:py-16 mb-16 text-center">
+    <div class="max-w-5xl mx-auto px-6 sm:px-12">
+      <span class="text-4xl block mb-4" role="img" aria-label="headphones">🎧</span>
+      <blockquote class="text-2xl sm:text-3xl font-serif italic font-medium leading-relaxed max-w-3xl mx-auto">
+        "Video is an addition, not a replacement."
+      </blockquote>
+    </div>
+  </section>
+
   <section class="mb-16">
     <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8">
       <p class="text-xl font-bold text-white mb-4">Ready to build your video podcast workflow?</p>
@@ -151,7 +166,7 @@ seo:
     <div class="sm:flex sm:items-center sm:justify-between mb-6">
       <div class="mb-5 sm:mb-0 sm:pr-8">
         <h2 class="text-3xl sm:text-4xl font-bold mb-2">Not ready to join quite yet?<br>Start watching for free now.</h2>
-        <p class="text-lg text-gray-700 leading-relaxed">I have years of podcast editing tutorials and tricks already on my YouTube channel. Watch a few, see if we click — then come join the deep end.</p>
+        <p class="text-lg text-gray-700 leading-relaxed">I have years of podcast editing tutorials and tricks already on my YouTube channel. Watch a few, see if we click, and then join the deep end.</p>
       </div>
       <a href="{{ meta.youtubeurl }}" rel="noopener" class="inline-block flex-shrink-0 bg-gray-900 hover:bg-gray-800 text-white font-bold text-lg rounded px-8 py-4">Watch on YouTube →</a>
     </div>
@@ -173,7 +188,7 @@ seo:
         <p class="text-lg leading-relaxed text-gray-800"><span class="text-green-600 font-bold">✓</span> <strong>Editors</strong> like me, trying to serve clients in a video-first world.</p>
       </div>
     </div>
-    <p class="text-lg leading-relaxed text-gray-700 mt-4">If you've been Googling or asking ChatGPT and getting answers that assume you have a full production crew — you're in the right place. Let's figure it out together.</p>
+    <p class="text-lg leading-relaxed text-gray-700 mt-4">If you've been searching online and getting answers that assume you have a full production crew, you're in the right place. Let's figure it out together.</p>
   </section>
 
   <!-- ===================== WHO IT'S NOT FOR ===================== -->
@@ -184,7 +199,7 @@ seo:
         <p class="text-lg leading-relaxed text-gray-800"><span class="text-red-600 font-bold">✕</span> Anyone who already has a <strong>full production crew</strong> and a team handling all of this.</p>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-4">
-        <p class="text-lg leading-relaxed text-gray-800"><span class="text-red-600 font-bold">✕</span> People who want a <strong>polished, finished course</strong> right now — I'm sharing as I learn, in real time.</p>
+        <p class="text-lg leading-relaxed text-gray-800"><span class="text-red-600 font-bold">✕</span> People who want a <strong>polished, finished course</strong> right now. I'm sharing as I learn in real time.</p>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-4">
         <p class="text-lg leading-relaxed text-gray-800"><span class="text-red-600 font-bold">✕</span> Anyone who thinks it's video <em>or</em> audio and wants to <strong>abandon one</strong> for the other.</p>
@@ -197,8 +212,8 @@ seo:
 
   <!-- ===================== AUDIO REASSURANCE ===================== -->
   <section class="max-w-3xl mx-auto text-center mb-16">
-    <h2 class="text-3xl sm:text-4xl font-bold mb-4">And no — audio isn't going anywhere</h2>
-    <p class="text-lg leading-relaxed text-gray-800">People still commute. People still do dishes. People still want something in their ears that isn't music. The audience for audio is real and loyal. What's changing is what clients expect and what platforms reward — so this is about <em>adding</em> to what we know, not abandoning it.</p>
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">And no, audio isn't going anywhere</h2>
+    <p class="text-lg leading-relaxed text-gray-800">People still commute. People still do dishes. People still want something in their ears that isn't music. The audience for audio is real and loyal. What's changing is what clients expect and what platforms reward, so this is about <em>adding</em> to what we know, not abandoning it.</p>
   </section>
 
   <!-- ===================== FINAL CTA ===================== -->
