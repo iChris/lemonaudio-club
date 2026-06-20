@@ -3,7 +3,7 @@ layout: base
 title: Thank you for subscribing!
 permalink: /thankyou/index.html
 seo:
-  title: Thank you for subscribing! — LemonAudio.club
+  title: Thank you for subscribing! | LemonAudio.club
   description: Please check your email to confirm your subscription.
 ---
 
