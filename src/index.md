@@ -80,7 +80,7 @@ seo:
   <!-- ===================== WHAT YOU GET ===================== -->
   <section id="what" class="mb-16">
     <h2 class="text-3xl sm:text-4xl font-bold mb-2">What you'll get</h2>
-    <p class="text-gray-600 mb-8 max-w-2xl">Real stuff from someone who's in it right now. There are no assumptions that you have a full production crew, because you don't, and you don't need one.</p>
+    <p class="text-gray-600 mb-8 max-w-3xl">Can I put a <strong>beta flag on an email newsletter + community</strong>? Because honestly I'm still figuring this out and if you're signing up in the summer of 2026 you're unofficially part of a live experiment.</p>
     <div class="flex flex-wrap -mx-3">
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-yellow-100 border border-yellow-200 rounded p-6 h-full">
