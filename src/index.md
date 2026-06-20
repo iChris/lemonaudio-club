@@ -98,30 +98,45 @@ seo:
         <div class="bg-teal-100 border border-teal-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">✂️ Editing workflows</h3>
           <p class="text-gray-700 leading-relaxed">Workflows that don't make you want to quit, built by an editor specifically for editors and podcasters.</p>
-        </div>
-      </div>
-      <div class="w-full sm:w-1/2 px-3 mb-6">
-        <div class="bg-purple-100 border border-purple-200 rounded p-6 h-full">
-          <h3 class="text-xl font-bold mb-2">🎧 Audio still counts</h3>
-          <p class="text-gray-700 leading-relaxed">Ten-plus years of audio-first craft. Video is an addition, not a replacement.</p>
+          <div class="mt-4 pt-3 border-t border-teal-200 text-xs">
+            <span class="font-bold text-teal-800">Coming Soon</span>
+            <p class="text-teal-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-blue-100 border border-blue-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">🎥 Video guides</h3>
           <p class="text-gray-700 leading-relaxed">Get access to live stream hangouts, preview tutorials, and watch behind-the-scenes videos showing how I work.</p>
+          <div class="mt-4 pt-3 border-t border-blue-200 text-xs">
+            <span class="font-bold text-blue-800">Coming Soon</span>
+            <p class="text-blue-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-green-100 border border-green-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">👥 Community</h3>
           <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+          <div class="mt-4 pt-3 border-t border-green-200 text-xs">
+            <span class="font-bold text-green-800">Coming Soon</span>
+            <p class="text-green-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== MID-PAGE PATREON CTA ===================== -->
+  <!-- ===================== AUDIO BANNER QUOTE ===================== -->
+  <section class="full-bleed bg-purple-900 text-white py-12 sm:py-16 mb-16 text-center">
+    <div class="max-w-5xl mx-auto px-6 sm:px-12">
+      <span class="text-4xl block mb-4" role="img" aria-label="headphones">🎧</span>
+      <blockquote class="text-2xl sm:text-3xl font-serif italic font-medium leading-relaxed max-w-3xl mx-auto">
+        "Video is an addition, not a replacement."
+      </blockquote>
+    </div>
+  </section>
+
   <section class="mb-16">
     <div class="bg-gray-900 text-white border-l-4 border-yellow-400 rounded p-6 sm:p-8">
       <p class="text-xl font-bold text-white mb-4">Ready to build your video podcast workflow?</p>
