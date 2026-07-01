@@ -140,7 +140,7 @@ seo:
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-green-100 border border-green-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">👥 Community</h3>
-          <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
+          <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons. Maybe a Discord? Maybe something else? We'll figure it out.</p>
           <div class="mt-4 pt-3 border-t border-green-200 text-xs">
             <span class="font-bold text-green-800"> ** Coming Soon **</span>
             <p class="text-green-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
