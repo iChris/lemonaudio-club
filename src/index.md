@@ -60,7 +60,7 @@ seo:
     <h2 class="text-3xl sm:text-4xl font-bold mb-6">Why I'm doing this</h2>
     <div class="flex flex-wrap -mx-4 leading-relaxed text-gray-800 text-lg">
       <div class="w-full md:w-1/2 px-4 space-y-4 mb-4 md:mb-0">
-        <p>I'll be honest about something a lot of people in my world are feeling and not saying out loud: I've been a bit <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">burnt out</mark>. Not because I hate video, but because I had audio dialed in. I had routines that worked, clients I loved, and schedules that made sense. But suddenly, there's a <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">whole new layer of complexity</mark> to figure out, charge for correctly, and learn the tools for.</p>
+        <p>I'll be honest about something a lot of people in my world are feeling and not saying out loud: I've been a bit <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">burned out</mark>. Not because I hate video, but because I had audio dialed in. I had routines that worked, clients I loved, and schedules that made sense. But suddenly, there's a <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">whole new layer of complexity</mark> to figure out, charge for correctly, and learn the tools for.</p>
       </div>
       <div class="w-full md:w-1/2 px-4 space-y-4">
         <p>But this isn't the industry betraying me. It's just <mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">the industry moving</mark>. And it's moved before. When I started, podcasting itself was the weird niche. Then it became normal, then competitive, then the tools got better and the workflows got tighter. Now here we are again at that messy early stage, but with video.</p>
@@ -77,10 +77,27 @@ seo:
     </div>
   </section>
 
+  <!-- ===================== WHO AM I ===================== -->
+  <section id="who-am-i" class="mb-16 bg-gray-50 rounded-xl p-6 sm:p-8 border border-gray-200">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="flex-shrink-0 w-32 h-32 sm:w-40 sm:h-40 mb-4 md:mb-0 md:mr-8">
+        <img 
+          src="/media/chris-profile.jpg" 
+          alt="Chris Enns" 
+          class="w-full h-full rounded-xl object-cover border-2 border-white shadow-sm"
+        />
+      </div>
+      <div class="text-center md:text-left">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-3">Who's behind this?</h2>
+        <p class="text-lg leading-relaxed text-gray-700">Hi! I'm Chris Enns. I run my business, <a href="https://www.lemonproductions.ca/" class="text-teal-600 hover:underline font-semibold">Lemon Productions</a>, where I edit and produce podcasts for clients. My hope is to share knowledge, help others get un-stuck, and build community with other folks on a similar journey as me.</p>
+        <p class="text-lg leading-relaxed text-gray-700">If you'd like to find out more about me, check out <a href="https://chrisenns.com" class="text-teal-600 hover:underline font-semibold">my blog</a> or <a href="https://chrisenns.com/links/" class="text-teal-600 hover:underline font-semibold">other places I hang out online.</a></p>
+      </div>
+    </div>
+  </section>
+
   <!-- ===================== WHAT YOU GET ===================== -->
   <section id="what" class="mb-16">
     <h2 class="text-3xl sm:text-4xl font-bold mb-2">What you'll get</h2>
-    <p class="text-gray-600 mb-8 max-w-3xl">Can I put a <strong>beta flag on an email newsletter + community</strong>? Because honestly I'm still figuring this out and if you're signing up in the summer of 2026 you're unofficially part of a live experiment.</p>
     <div class="flex flex-wrap -mx-3">
       <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-yellow-100 border border-yellow-200 rounded p-6 h-full">
@@ -95,11 +112,17 @@ seo:
         </div>
       </div>
       <div class="w-full sm:w-1/2 px-3 mb-6">
+        <div class="bg-purple-100 border border-purple-200 rounded p-6 h-full">
+          <h3 class="text-xl font-bold mb-2">🤖 LLM Usage</h3>
+          <p class="text-gray-700 leading-relaxed">I view AI apps as one tool in my toolbox, but it's not a replacement for human tastes and preferences. So we'll talk about how AI tooling can be used to help with repetitive, non-creative tasks, while leaving the fun parts of editing and producing podcast up to us as humans.</p>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 px-3 mb-6">
         <div class="bg-teal-100 border border-teal-200 rounded p-6 h-full">
           <h3 class="text-xl font-bold mb-2">✂️ Editing workflows</h3>
           <p class="text-gray-700 leading-relaxed">Workflows that don't make you want to quit, built by an editor specifically for editors and podcasters.</p>
           <div class="mt-4 pt-3 border-t border-teal-200 text-xs">
-            <span class="font-bold text-teal-800">Coming Soon</span>
+            <span class="font-bold text-teal-800">** Coming Soon **</span>
             <p class="text-teal-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
           </div>
         </div>
@@ -109,7 +132,7 @@ seo:
           <h3 class="text-xl font-bold mb-2">🎥 Video guides</h3>
           <p class="text-gray-700 leading-relaxed">Get access to live stream hangouts, preview tutorials, and watch behind-the-scenes videos showing how I work.</p>
           <div class="mt-4 pt-3 border-t border-blue-200 text-xs">
-            <span class="font-bold text-blue-800">Coming Soon</span>
+            <span class="font-bold text-blue-800">** Coming Soon **</span>
             <p class="text-blue-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
           </div>
         </div>
@@ -119,10 +142,13 @@ seo:
           <h3 class="text-xl font-bold mb-2">👥 Community</h3>
           <p class="text-gray-700 leading-relaxed">Weekly office hour chats with me and other members of my community most Tuesday afternoons.</p>
           <div class="mt-4 pt-3 border-t border-green-200 text-xs">
-            <span class="font-bold text-green-800">Coming Soon</span>
+            <span class="font-bold text-green-800"> ** Coming Soon **</span>
             <p class="text-green-700 mt-0.5">$$ Minimal Membership Fee for Access TBD</p>
           </div>
         </div>
+      </div>
+      <div class="w-full px-3 text-center mt-4">
+        <p class="text-gray-600 max-w-3xl mx-auto">I've got a <strong>Coming Soon!</strong> and possible membership fees for access to editing workflows, video guides, and community because, honestly, I'm still figuring this out. I'd rather <strong>under promise and over deliver</strong>.<br />So if you're signing up in the summer of 2026, consider yourself part of the founders group of beta testers. ☺️</p>
       </div>
     </div>
   </section>
@@ -187,8 +213,16 @@ seo:
       <div class="w-full sm:w-1/2 px-3 mb-4">
         <p class="text-lg leading-relaxed text-gray-800"><span class="text-green-600 font-bold">✓</span> <strong>Editors</strong> like me, trying to serve clients in a video-first world.</p>
       </div>
+      <div class="w-full sm:w-1/2 px-3 mb-4">
+        <p class="text-lg leading-relaxed text-gray-800"><span class="text-green-600 font-bold">✓</span> <strong>New podcasters</strong> who want to start a podcast but aren't sure where to begin.</p>
+      </div>
+      <div class="w-full sm:w-1/2 px-3 mb-4">
+        <p class="text-lg leading-relaxed text-gray-800"><span class="text-green-600 font-bold">✓</span> <strong>Solo podcasters</strong> wanting community on their journey creating new episodes.</p>
+      </div>
+      <div class="w-full px-3 mb-4 text-center">
+        <p class="text-lg leading-relaxed text-gray-800"><span class="text-green-600 font-bold">✓</span> <strong>Anyone</strong> curious about podcasting and wanting to go behind the scenes with us.</p>
+      </div>
     </div>
-    <p class="text-lg leading-relaxed text-gray-700 mt-4">If you've been searching online and getting answers that assume you have a full production crew, you're in the right place. Let's figure it out together.</p>
   </section>
 
   <!-- ===================== WHO IT'S NOT FOR ===================== -->
@@ -217,7 +251,7 @@ seo:
   </section>
 
   <!-- ===================== FINAL CTA ===================== -->
-  <section id="join" class="full-bleed bg-gray-900 text-white py-14 sm:py-16 text-center">
+  <section id="join" class="full-bleed bg-gray-900 text-white py-12 sm:py-16 text-center">
     <div class="max-w-5xl mx-auto px-6 sm:px-12">
       <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Let's help each other.</h2>
       <p class="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">I'm sharing tips, tutorials, and what's working as I learn it.<br>Subscribe to my newsletter and let's make video podcasts with as little stress as possible.</p>
